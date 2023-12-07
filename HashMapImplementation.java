@@ -13,5 +13,6 @@ public class HashMapImplementation {
         a.put("Hanuman", 100);
 
         System.out.println(a);
+        System.out.println(a);
     }
 }
