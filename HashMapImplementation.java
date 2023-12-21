@@ -4,6 +4,7 @@ import java.util.HashMap;
  * HashMapImplementation
  */
 public class HashMapImplementation {
+  //Top K Frequent Elements
   public static Integer countUniqueWords(String[] words) {
     HashMap<String, Integer> Words = new HashMap<String, Integer>();
     for (int i = 0; i < words.length; i++) {

@@ -19,10 +19,13 @@ public class HashSetImplementation {
                 return true;
             }
             a.add(arr[i]);
+            System.out.println(a.add(arr[i]));
+            
         }  
         return false;     
     }
     
+
     public static void main(String[] args) {
         int []arr={0, -1, 2, -3, 1};
         int k=4;
